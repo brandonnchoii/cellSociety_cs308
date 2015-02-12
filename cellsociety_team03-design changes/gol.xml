@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<caSimulation>
+	<properties prop = "Game of Life-Team 3-locs-Square">
+	</properties>
+	<misc>
+		<param id = "rows">10</param>
+		<param id = "cols">10</param>
+	</misc>
+	<initialization>
+		<occupant id = "Dead">0</occupant>
+		<occupant id = "Alive">1</occupant>
+		<row>0 0 1 1 1 1 1 1 1 1</row>
+		<row>0 1 1 1 1 1 1 1 1 1</row>
+		<row>1 1 1 0 1 1 1 1 1 1</row>
+		<row>1 1 0 0 1 1 1 1 1 1</row>
+		<row>1 1 1 1 1 1 1 1 1 1</row>
+		<row>1 1 1 1 1 1 1 1 1 1</row>
+		<row>1 1 1 1 1 1 0 1 1 1</row>
+		<row>1 1 1 1 1 1 1 1 1 1</row>
+		<row>1 1 1 1 1 1 1 1 1 1</row>
+		<row>1 1 1 1 1 1 1 1 1 1</row>
+	</initialization>
+</caSimulation>
+

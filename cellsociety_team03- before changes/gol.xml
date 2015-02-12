@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<CASimulation>
+	<Properties title= "Game of Life" author="Team 3" rows="10" cols="10" states = "2">
+	</Properties>
+	<Initialization>
+		<Row>0 0 1 1 1 1 1 1 1 1</Row>
+		<Row>0 1 1 1 1 1 1 1 1 1</Row>
+		<Row>1 1 1 0 1 1 1 1 1 1</Row>
+		<Row>1 1 0 0 1 1 1 1 1 1</Row>
+		<Row>1 1 1 1 1 1 1 1 1 1</Row>
+		<Row>1 1 1 1 1 1 1 1 1 1</Row>
+		<Row>1 1 1 1 1 1 1 1 1 1</Row>
+		<Row>1 1 1 1 1 1 1 1 1 1</Row>
+		<Row>1 1 1 1 1 1 1 1 1 1</Row>
+		<Row>1 1 1 1 1 1 1 1 1 1</Row>
+	</Initialization>
+</CASimulation>

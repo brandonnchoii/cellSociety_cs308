@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<caSimulation>
+	<properties prop = "Spreading of Fire-Team 3-numbers-Hexagon">
+	</properties>
+	<initialization>
+		<occupant id = "Fire">0</occupant>
+		<occupant id = "Empty">1</occupant>
+		<occupant id = "Tree">2</occupant>
+		<row>1 1 1 1 1 1 1 1 1 1 </row>
+		<row>1 2 2 2 2 2 2 2 2 1 </row>
+		<row>1 2 2 2 2 2 2 2 2 1 </row>
+		<row>1 2 2 2 2 2 2 2 2 1 </row>
+		<row>1 2 2 2 2 2 2 2 2 1 </row>
+		<row>1 2 2 2 2 0 2 2 2 1 </row>
+		<row>1 2 2 2 2 2 2 2 2 1 </row>
+		<row>1 2 2 2 2 2 2 2 2 1 </row>
+		<row>1 2 2 2 2 2 2 2 2 1 </row>
+		<row>1 1 1 1 1 1 1 1 1 1 </row>
+		<!-- change locs to number -->
+		<number id = "Fire">.05</number>
+		<number id = "Empty">.15</number>
+		<number id = "Tree">.80</number>
+	</initialization>
+	<misc>
+		<param id = "rows">10</param>
+		<param id = "cols">10</param>
+		<param id = "probability">100</param>
+	</misc>
+</caSimulation>

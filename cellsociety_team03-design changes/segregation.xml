@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<caSimulation>
+	<properties prop= "Segregation-Team 3-numbers">
+	</properties>
+	<misc>
+		<param id = "rows">30</param>
+		<param id = "cols">30</param>
+		<param id = "Similarity">30</param>
+	</misc>
+	<initialization>
+		<number id = "Agent O">.45</number>
+		<number id = "Agent X">.45</number>
+		<Row>2 1 2 1 1 1 1 1 1 1 </Row>
+		<Row>1 2 2 2 2 2 2 0 0 1 </Row>
+		<Row>1 0 0 2 2 2 2 2 2 1 </Row>
+		<Row>1 0 2 1 2 2 2 2 2 1 </Row>
+		<Row>1 0 2 2 2 0 2 2 2 1 </Row>
+		<Row>1 1 2 2 2 0 0 2 2 1 </Row>
+		<Row>1 2 2 1 2 2 2 2 2 1 </Row>
+		<Row>1 2 2 2 2 2 2 1 2 1 </Row>
+		<Row>1 2 1 0 0 0 2 2 2 1 </Row>
+		<Row>1 1 1 1 1 1 1 2 2 1 </Row>
+	</initialization>
+</caSimulation>

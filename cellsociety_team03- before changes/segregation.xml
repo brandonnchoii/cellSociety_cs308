@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<CASimulation>
+	<Properties title= "Segregation" author="Team 3" rows="10" cols="10" states = "3">
+	</Properties>
+	<Parameters>
+		<Par id = "ProbSimilar">80</Par>
+		<Par id = "PercentAgentO">70</Par>
+		<Par id = "PercentEmpty">25</Par>
+	</Parameters>
+	<Initialization>
+		<Row>2 1 2 1 1 1 1 1 1 1 </Row>
+		<Row>1 2 2 2 2 2 2 0 0 1 </Row>
+		<Row>1 0 0 2 2 2 2 2 2 1 </Row>
+		<Row>1 0 2 1 2 2 2 2 2 1 </Row>
+		<Row>1 0 2 2 2 0 2 2 2 1 </Row>
+		<Row>1 1 2 2 2 0 0 2 2 1 </Row>
+		<Row>1 2 2 1 2 2 2 2 2 1 </Row>
+		<Row>1 2 2 2 2 2 2 1 2 1 </Row>
+		<Row>1 2 1 0 0 0 2 2 2 1 </Row>
+		<Row>1 1 1 1 1 1 1 2 2 1 </Row>
+	</Initialization>
+</CASimulation>

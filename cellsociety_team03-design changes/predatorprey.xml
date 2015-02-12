@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<caSimulation>
+	<properties prop = "Predator and Prey-Team 3-numbers">
+	</properties>
+	<initialization>
+		<number id = "Fish">.01</number>
+		<number id = "Shark">.02</number>
+	</initialization>
+	<misc>
+		<param id = "rows">10</param>
+		<param id = "cols">10</param>
+		<param id = "FishBreed">1</param>
+		<param id = "SharkBreed">10</param>
+		<param id = "SharkStarve">3</param>
+	</misc>
+</caSimulation>

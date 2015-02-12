@@ -1,0 +1,49 @@
+package occupant.character.segregation;
+
+import java.util.ArrayList;
+import grid.Grid;
+import grid.Location;
+import javafx.scene.paint.Color;
+import occupant.Occupant;
+import occupant.character.Character;
+
+
+public class AgentO extends Character {
+    private ArrayList<Location> myNeighbors;
+    private Grid<Occupant> myGrid;
+    private Location myLocation;
+    private Double ProbSimilar;
+    
+    public AgentO (Grid<Occupant> grid, Location loc, double p) {
+        super(grid, loc);
+        myGrid = grid;
+        myLocation = loc;
+        ProbSimilar = p;
+        setColor(Color.RED);
+        this.setType("AGENTO");
+        setSatisfied(false);
+    }
+
+    // the next state of any and all burning locations is always Empty
+    @Override
+    public void act () {
+        myNeighbors = myGrid.getOccupiedAdjacentLocations(myLocation);
+        int size = 0;
+        int ally = 0;
+        for (Location l : myNeighbors) {
+            Character neighboringChar = (Character) myGrid.get(l);
+            if (neighboringChar.getType() != "EMPTY"){
+                size += 1;
+                if(neighboringChar.getType() == "AGENTO"){
+                    ally += 1;
+                }
+            }
+        }
+        double threshold = size * ProbSimilar / 100.0;
+        if((double) ally > threshold){
+            setSatisfied(true);
+        }else{
+            setSatisfied(false); //rewrite this
+        }
+    }
+}
