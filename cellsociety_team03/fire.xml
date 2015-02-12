@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<CASimulation>
+	<Properties title= "Spreading of Fire" author="Team 3" rows="10" cols="10" states = "3">
+	</Properties>
+	<Parameters>
+		<Par>40</Par>
+	</Parameters>
+	<Initialization>
+		<Row>1 1 1 1 1 1 1 1 1 1 </Row>
+		<Row>1 2 2 2 2 2 2 2 2 1 </Row>
+		<Row>1 2 2 2 2 2 2 2 2 1 </Row>
+		<Row>1 2 2 2 2 2 2 2 2 1 </Row>
+		<Row>1 2 2 2 2 2 2 2 2 1 </Row>
+		<Row>1 2 2 2 2 0 2 2 2 1 </Row>
+		<Row>1 2 2 2 2 2 2 2 2 1 </Row>
+		<Row>1 2 2 2 2 2 2 2 2 1 </Row>
+		<Row>1 2 2 2 2 2 2 2 2 1 </Row>
+		<Row>1 1 1 1 1 1 1 1 1 1 </Row>
+	</Initialization>
+</CASimulation>

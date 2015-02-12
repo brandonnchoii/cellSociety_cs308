@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<CASimulation>
+	<Properties title="Segregation" author="Who?" rows="3" cols="10">
+	</Properties>
+	<Initialization>
+		<Row>1 1 0 1 1 0 0 1 1 1 </Row>
+		<Row>0 0 0 1 1 0 0 0 0 0 </Row>
+		<Row>0 0 0 1 1 0 0 0 0 1 </Row>
+	</Initialization>
+</CASimulation>
